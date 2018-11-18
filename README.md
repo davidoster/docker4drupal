@@ -24,21 +24,21 @@ The Drupal stack consist of the following containers:
 | [PostgreSQL]    | 11, 10, 9.x             | `postgres`      | [wodby/postgres]                   |         |
 | [Redis]         | 5, 4                    | `redis`         | [wodby/redis]                      |         |
 | [Memcached]     | 1                       | `memcached`     | [wodby/memcached]                  |         |
-| [Varnish]       | 4.1                     | `varnish`       | [wodby/varnish]                    |         |
+| [Varnish]       | 4.1                     | `varnish`       | [wodby/varnish]                    | ✓       |
 | [Node.js]       | 10, 8, 6                | `node`          | [wodby/node]                       |         |
 | [Drupal node]   | 1.0                     | `drupal-node`   | [wodby/drupal-node]                |         |
 | [Solr]          | 7.x, 6.6, 5.5, 5.4      | `solr`          | [wodby/solr]                       |         |
-| [Elasticsearch] | 6.x, 5.6, 5.5, 5.4      | `elasticsearch` | [wodby/elasticsearch]              |         |
-| [Kibana]        | 6.x, 5.6, 5.5, 5.4      | `kibana`        | [wodby/kibana]                     |         |
-| [OpenSMTPD]     | 6.0                     | `opensmtpd`     | [wodby/opensmtpd]                  |         |
+| [Elasticsearch] | 6.x, 5.6, 5.5, 5.4      | `elasticsearch` | [wodby/elasticsearch]              | ✓       |
+| [Kibana]        | 6.x, 5.6, 5.5, 5.4      | `kibana`        | [wodby/kibana]                     | ✓       |
+| [OpenSMTPD]     | 6.0                     | `opensmtpd`     | [wodby/opensmtpd]                  | ✓       |
 | [Mailhog]       | latest                  | `mailhog`       | [mailhog/mailhog]                  | ✓       |
 | [AthenaPDF]     | 2.10.0                  | `athenapdf`     | [arachnysdocker/athenapdf-service] |         |
-| [Rsyslog]       | latest                  | `rsyslog`       | [wodby/rsyslog]                    |         |
+| [Rsyslog]       | latest                  | `rsyslog`       | [wodby/rsyslog]                    | ✓       |
 | [Blackfire]     | latest                  | `blackfire`     | [blackfire/blackfire]              |         |
 | [Webgrind]      | 1.5                     | `webgrind`      | [wodby/webgrind]                   |         |
 | [Xhprof viewer] | latest                  | `xhprof`        | [wodby/xhprof]                     |         |
-| Adminer         | 4.6                     | `adminer`       | [wodby/adminer]                    |         |
-| phpMyAdmin      | latest                  | `pma`           | [phpmyadmin/phpmyadmin]            |         |
+| Adminer         | 4.6                     | `adminer`       | [wodby/adminer]                    | ✓       |
+| phpMyAdmin      | latest                  | `pma`           | [phpmyadmin/phpmyadmin]            | ✓       |
 | Portainer       | latest                  | `portainer`     | [portainer/portainer]              | ✓       |
 | Traefik         | latest                  | `traefik`       | [_/traefik]                        | ✓       |
 
